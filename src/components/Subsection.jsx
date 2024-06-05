@@ -20,8 +20,8 @@ const Subsection = () => {
 								Questions? No pressure, just answers!
 							</h3>
 							<p class='mt-6 text-base leading-7 text-gray-600'>
-								We've all suffered lose but not everyone has experience in how
-								or where to start. Here at MRES, we'll answer any and all
+								We have all suffered lose but not everyone has experience in how
+								or where to start. Here at MRES, we will answer any and all
 								questions to help this process be as painless as posssible.
 								Simple start with a phone call, text or email.
 							</p>
