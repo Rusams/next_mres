@@ -15,7 +15,11 @@ const Contact = () => {
 							value='New Contact From Website!'
 						></input>
 						<input type='hidden' name='_captcha' value='false'></input>
-						{/* <input type="hidden" name="_webhook" value="https://yourdomain.co/your-webhook"></input> */}
+						<input
+							type='hidden'
+							name='_webhook'
+							value='https://next-mres.vercel.app/thankyou'
+						></input>
 						<div class='mb-5'>
 							<label
 								for='name'

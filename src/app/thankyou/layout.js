@@ -2,13 +2,15 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import TopBar from '@/components/TopBar'
-import RestorationHeader from '@/components/RestorationHeader'
+import ContactHeader from '@/components/ContactHeader'
+import Timeline from '@/components/Timeline'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
 	title: 'MRES',
-	description: 'Memorial Restoration and Engraving Services, Southern Maryland',
+	description:
+		'Thank you for contacting MRES, Headstone, Engraving, Death Date, Sandblasting',
 }
 
 export default function RootLayout({ children }) {
@@ -17,8 +19,9 @@ export default function RootLayout({ children }) {
 			<body className={inter.className}>
 				{<TopBar />}
 				{<Navbar />}
-				{<RestorationHeader />}
+				{<ContactHeader />}
 				{children}
+				{<Timeline />}
 				{<Footer />}
 			</body>
 		</html>
