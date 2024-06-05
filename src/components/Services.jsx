@@ -12,7 +12,7 @@ function Services() {
 					Headstones
 				</a>
 				<Image
-					src='img/headstone1.png'
+					src='/img/headstone1.png'
 					width={500}
 					height={500}
 					alt='Arlington National Cemetery'
@@ -27,7 +27,7 @@ function Services() {
 					Engraving
 				</a>
 				<Image
-					src='img/headstone2.png'
+					src='/img/headstone2.png'
 					width={500}
 					height={500}
 					alt='Arlington National Cemetery'
@@ -42,7 +42,7 @@ function Services() {
 					Restoration
 				</a>
 				<Image
-					src='img/headstone3.png'
+					src='/img/headstone3.png'
 					width={500}
 					height={500}
 					alt='Arlington National Cemetery'

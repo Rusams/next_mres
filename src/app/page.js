@@ -45,7 +45,7 @@ export default function Home() {
 					</a>
 
 					<Image
-						src='img/headstone1.png'
+						src='/img/headstone1.png'
 						width={500}
 						height={500}
 						alt='Arlington National Cemetery'
@@ -60,7 +60,7 @@ export default function Home() {
 						Engraving
 					</a>
 					<Image
-						src='img/headstone2.png'
+						src='/img/headstone2.png'
 						width={500}
 						height={500}
 						alt='Arlington National Cemetery'
@@ -75,7 +75,7 @@ export default function Home() {
 						Restoration
 					</a>
 					<Image
-						src='img/headstone3.png'
+						src='/img/headstone3.png'
 						width={500}
 						height={500}
 						alt='Arlington National Cemetery'
