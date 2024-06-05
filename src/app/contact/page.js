@@ -6,7 +6,7 @@ const Contact = () => {
 			<div class='flex items-center justify-center p-12'>
 				<div class='mx-auto w-full max-w-[550px]'>
 					<form
-						action='https://formsubmit.co/d24e3855881a08dda117702060737730'
+						action='https://formsubmit.co/mres.somd@gmail.com'
 						method='POST'
 					>
 						<input
