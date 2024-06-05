@@ -1,85 +1,9 @@
-import Image from 'next/image'
-import TopBar from '@/components/TopBar'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+'use client'
 
-export default function Home() {
+const Subsection = () => {
 	return (
 		<div>
-			{<TopBar />}
-			{<Navbar />}
-			<div className='w-full h-[90vh]'>
-				<Image
-					src='/img/IMG_0018_2.jpg'
-					width={500}
-					height={500}
-					alt='Arlington National Cemetery'
-					className='w-full h-full object-cover brightness-50'
-				/>
-				<div className='max-w-[1140px] m-auto'>
-					<div className='absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4'>
-						<h1 className='font-bold text-4xl'>Memorial Restoration</h1>
-						<h2 className='text-3xl pb-4 italic'>& Engraving Services</h2>
-						<p>
-							Located in Southern Maryland, MRES services MD, DC, VA and
-							surrounding areas. MRES provides affordable Granite Headstones,
-							Bronze Memorials, In-Cemetery Engraving as well as Memorial
-							Restoration, Cleaning and Re-Coloring services.
-						</p>
-						<button className='mt-8 relative h-12 w-60 overflow-hidden border border-indigo-600 text-white shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-indigo-600 before:duration-300 before:ease-out hover:underline hover:text-white hover:shadow-indigo-600 hover:before:h-40 hover:before:w-60 hover:before:opacity-80'>
-							Contact us today!
-						</button>
-					</div>
-				</div>
-			</div>
-
-			{/* Services */}
-
-			<div className='bg-slate-200 max-w-[1140px] m-auto w-full md:flex mt-[-75px]'>
-				<div className='relative p-4'>
-					<a
-						href='/'
-						className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold hover:underline cursor-pointer hover:text-[var(--primary-dark)]'
-					>
-						Headstones
-					</a>
-					<img
-						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
-						src='img/headstone1.png'
-						alt='/'
-					/>
-				</div>
-				<div className='relative p-4'>
-					<a
-						href='/'
-						className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold hover:underline cursor-pointer hover:text-[var(--primary-dark)]'
-					>
-						Engraving
-					</a>
-					<img
-						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
-						src='img/headstone2.png'
-						alt='/'
-					/>
-				</div>
-				<div className='relative p-4'>
-					<a
-						href='/'
-						className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold hover:underline cursor-pointer hover:text-[var(--primary-dark)]'
-					>
-						Restoration
-					</a>
-					<img
-						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
-						src='img/headstone3.png'
-						alt='/'
-					/>
-				</div>
-			</div>
-
-			{/* Subsection */}
-
-			<div class='bg-white py-24 sm:py-16'>
+			<div class='bg-slate-300 py-24 sm:py-16'>
 				<div class='mx-auto max-w-7xl px-6 lg:px-8'>
 					<div class='mx-auto max-w-2xl sm:text-center'>
 						<h2 class='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
@@ -199,7 +123,8 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			{<Footer />}
 		</div>
 	)
 }
+
+export default Subsection
