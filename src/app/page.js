@@ -43,10 +43,13 @@ export default function Home() {
 					>
 						Headstones
 					</a>
-					<img
-						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
+
+					<Image
 						src='img/headstone1.png'
-						alt='/'
+						width={500}
+						height={500}
+						alt='Arlington National Cemetery'
+						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
 					/>
 				</div>
 				<div className='relative p-4'>
@@ -56,10 +59,12 @@ export default function Home() {
 					>
 						Engraving
 					</a>
-					<img
-						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
+					<Image
 						src='img/headstone2.png'
-						alt='/'
+						width={500}
+						height={500}
+						alt='Arlington National Cemetery'
+						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
 					/>
 				</div>
 				<div className='relative p-4'>
@@ -69,10 +74,12 @@ export default function Home() {
 					>
 						Restoration
 					</a>
-					<img
+					<Image
+						src='img/headstone2.pnimg/headstone3.pngg'
+						width={500}
+						height={500}
+						alt='Arlington National Cemetery'
 						className='w-full h-full object-cover relative border-4 border-white shadow-lg'
-						src='img/headstone3.png'
-						alt='/'
 					/>
 				</div>
 			</div>
