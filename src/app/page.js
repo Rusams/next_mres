@@ -38,7 +38,7 @@ export default function Home() {
 			<div className='bg-slate-200 max-w-[1140px] m-auto w-full md:flex mt-[-75px]'>
 				<div className='relative p-4'>
 					<a
-						href='/'
+						href='/headstones'
 						className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold hover:underline cursor-pointer hover:text-[var(--primary-dark)]'
 					>
 						Headstones
@@ -54,7 +54,7 @@ export default function Home() {
 				</div>
 				<div className='relative p-4'>
 					<a
-						href='/'
+						href='/engraving'
 						className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold hover:underline cursor-pointer hover:text-[var(--primary-dark)]'
 					>
 						Engraving
@@ -69,7 +69,7 @@ export default function Home() {
 				</div>
 				<div className='relative p-4'>
 					<a
-						href='/'
+						href='/restoration'
 						className='absolute z-10 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white text-2xl font-bold hover:underline cursor-pointer hover:text-[var(--primary-dark)]'
 					>
 						Restoration
@@ -191,7 +191,7 @@ export default function Home() {
 										</span>
 									</p>
 									<a
-										href='/'
+										href='/contact'
 										class='mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
 									>
 										Email Us Here
