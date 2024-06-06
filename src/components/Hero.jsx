@@ -8,6 +8,7 @@ const Hero = () => {
 				src='/img/IMG_0018_2.jpg'
 				width={500}
 				height={500}
+				priority={true}
 				alt='Arlington National Cemetery'
 				className='w-full h-full object-cover brightness-50'
 			/>
