@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
 	return (
@@ -22,9 +23,12 @@ const Hero = () => {
 						Bronze Memorials, In-Cemetery Engraving as well as Memorial
 						Restoration, Cleaning and Re-Coloring services.
 					</p>
-					<button className='mt-8 relative h-12 w-60 overflow-hidden border border-indigo-600 text-white shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-indigo-600 before:duration-300 before:ease-out hover:underline hover:text-white hover:shadow-indigo-600 hover:before:h-40 hover:before:w-60 hover:before:opacity-80'>
+					<Link
+						href='/contact'
+						className='py-2 bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] mt-8 relative h-12 w-60 overflow-hidden border border-indigo-600 text-white shadow-2xl rounded text-center hover:text-[var(--primary-light)]'
+					>
 						Contact us today!
-					</button>
+					</Link>
 				</div>
 			</div>
 		</div>
