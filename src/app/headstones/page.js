@@ -38,7 +38,7 @@ const Headstones = () => {
 								Flat markers lay flush to the ground. They may memorialize more
 								than one person and are available with a telscoping vase as well
 								as a portrait. Some common sizes are 24x12, 36x12, 16x24 and
-								28x16, while all are 4" thick.
+								28x16, while all are 4&quot; thick.
 							</p>
 							<Link
 								href='/'
@@ -74,9 +74,10 @@ const Headstones = () => {
 							</h2>
 							<p className='text-base leading-relaxed mt-2'>
 								Similar in size to a Flat marker. Bevels lay on a concrete
-								foundation above ground. Typical Bevels are 6" high in the front
-								and 8" tall in the back. However, they can be cut to any
-								dimension you'd like. Also known as pillow tops or hickey.
+								foundation above ground. Typical Bevels are 6&quot; high in the
+								front and 8&quot; tall in the back. However, they can be cut to
+								any dimension you&apos;d like. Also known as pillow tops or
+								hickey.
 							</p>
 							<Link
 								href='/'
@@ -112,9 +113,9 @@ const Headstones = () => {
 							</h2>
 							<p className='text-base leading-relaxed mt-2'>
 								Slants are also placed on a concrete foundation. Slants range
-								between 16" and 18" tall and can be any length. They are squatty
-								in nature, usually 10" thick are the bottom and slant upwards to
-								3" thick at the top.
+								between 16&quot; and 18&quot; tall and can be any length. They
+								are squatty in nature, usually 10&quot; thick are the bottom and
+								slant upwards to 3&quot; thick at the top.
 							</p>
 							<Link
 								href='/'
@@ -158,10 +159,11 @@ const Headstones = () => {
 							</h2>
 							<p className='text-base leading-relaxed mt-2'>
 								Single uprights refer to the plot. They are usually the
-								dimensions of a "single" or "double depth" grave. Typically, a
-								24" tall upright contains one name and dates, however, the
-								upright can be made taller to accomodate additional names and
-								dates. Vases are common additions to uprights.
+								dimensions of a &quot;single&quot; or &quot;double depth&quot;
+								grave. Typically, a 24&quot; tall upright contains one name and
+								dates, however, the upright can be made taller to accomodate
+								additional names and dates. Vases are common additions to
+								uprights.
 							</p>
 							<Link
 								href='/'
@@ -196,11 +198,11 @@ const Headstones = () => {
 								Companion Uprights
 							</h2>
 							<p className='text-base leading-relaxed mt-2'>
-								Companion or "Double" upright refers to side by side plots.
-								These uprights are the most traditional memorials in a cemetery
-								and are still extremely popular today. They provide enough room
-								for multiple names and dates as well as designs to reflect
-								each's interests and hobbies.
+								Companion or &quot;Double&quot; upright refers to side by side
+								plots. These uprights are the most traditional memorials in a
+								cemetery and are still extremely popular today. They provide
+								enough room for multiple names and dates as well as designs to
+								reflect each&apos;s interests and hobbies.
 							</p>
 							<Link
 								href='/'
@@ -238,8 +240,8 @@ const Headstones = () => {
 								Cemetery Benches have gained in popularity over the years. They
 								provide a practical solution to visiting the cemetery, a place
 								to sit while visiting. These have also become very popular as a
-								"memorial" for places other than cemeteries, such as parks and
-								homes.
+								&quot;memorial&quot; for places other than cemeteries, such as
+								parks and homes.
 							</p>
 							<Link
 								href='/'
