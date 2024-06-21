@@ -7,7 +7,7 @@ const Headstones = () => {
 			<section className='text-gray-400 bg-gray-900 body-font'>
 				<div className='container px-5 py-24 mx-auto'>
 					<div className='flex flex-col'>
-						<div className='flex flex-wrap sm:flex-row flex-col py-6 mb-12'>
+						<div className='flex flex-wrap sm:flex-row flex-col py-6 mb-12 border p-4 rounded-lg'>
 							<h1 className='sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0'>
 								Granite Headstones
 							</h1>

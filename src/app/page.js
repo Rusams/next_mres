@@ -28,6 +28,10 @@ export default function Home() {
 							Bronze Memorials, In-Cemetery Engraving as well as Memorial
 							Restoration, Cleaning and Re-Coloring services.
 						</p>
+						<p className='mt-4'>
+							Located behind Florist and Barber Shop at 5887 Unit B, La Plata MD
+							20646.
+						</p>
 						<Link
 							href='/contact'
 							className='py-2 bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] mt-8 relative h-12 w-60 overflow-hidden border border-indigo-600 text-white shadow-2xl rounded text-center hover:text-[var(--primary-light)]'

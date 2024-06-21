@@ -41,7 +41,7 @@ const Navbar = () => {
 				</li>
 			</ul>
 			<div className='sm:hidden ml-8'>
-				<h1 className='text-xl'>Mobile Menu</h1>
+				<h1 className='text-xl'>240-685-1979</h1>
 			</div>
 			<div onClick={handleNav} className='sm:hidden z-10'>
 				<FaBars size={20} className='mr-4 cursor-pointer' />
