@@ -15,8 +15,9 @@ const ContactHeader = () => {
 				<div className='absolute top-[20%] w-full md:-[20%] max-w-[1200px] text-center flex flex-col text-white p-4'>
 					<h1 className='font-bold text-4xl'>Contact MRES</h1>
 					<p className='pt-8'>
-						Located behind Florist and Barber Shop at <br /> 5887 Unit B, La
-						Plata MD, 20646 or <br /> by phone at 240-685-1979.
+						Located behind Florist and Barber Shop at <br /> 5887 Unit B Crain
+						Hwy, La Plata MD, 20646 <br />
+						or by phone at 240-685-1979.
 					</p>
 				</div>
 			</div>

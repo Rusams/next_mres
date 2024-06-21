@@ -29,8 +29,8 @@ export default function Home() {
 							Restoration, Cleaning and Re-Coloring services.
 						</p>
 						<p className='mt-4'>
-							Located behind Florist and Barber Shop at 5887 Unit B, La Plata MD
-							20646.
+							Located behind Florist and Barber Shop at <br /> 5887 Unit B,
+							Crain Hwy, La Plata MD 20646.
 						</p>
 						<Link
 							href='/contact'
